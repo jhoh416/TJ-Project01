@@ -24,6 +24,8 @@ public class BankingSystemMain {
 	}
 	public static void main(String[] args) {
 		
+		System.out.println("1차프로젝트(학원)");
+		
 		Scanner scanner = new Scanner(System.in);
 		AccountManager accountManager = new AccountManager();
 		MenuSelectException MenuEx = new MenuSelectException();
