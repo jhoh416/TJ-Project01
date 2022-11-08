@@ -19,6 +19,7 @@ public class AutoSaver extends Thread {
 		System.out.println("2.자동저장Off");
 		int onoff = scan.nextInt();
 		if(onoff==1) {	
+			System.out.println("자동저장시작");
 			if(thread.isAlive()) {
 				System.out.println("이미 자동저장이 실행중입니다");
 			}else {

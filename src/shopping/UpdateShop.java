@@ -8,6 +8,7 @@ public class UpdateShop extends IConnectImpl{
 	public UpdateShop() {
 		super("education","1234");
 	}
+	
 	@Override
 	public void execute() {
 		
@@ -33,6 +34,7 @@ public class UpdateShop extends IConnectImpl{
 	
 	public static void main(String[] args) {
 		new UpdateShop().execute();
+		
 
 	}
 

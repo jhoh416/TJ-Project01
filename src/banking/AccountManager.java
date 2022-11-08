@@ -66,6 +66,7 @@ public class AccountManager {
 					//아무것도안함.
 				}
 			}
+			return;
 		}
 		
 		else {
@@ -98,6 +99,7 @@ public class AccountManager {
 		}
 		System.out.println("--------------");
 		System.out.println("계좌개설이 완료되었습니다.");	
+		return;
 	}
 	
 	//입금하는 메서드
